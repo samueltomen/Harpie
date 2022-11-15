@@ -17,11 +17,8 @@ h1{
 }
 
 .card{
-    border:solid 1px #51ade5;
+    box-shadow: 2px 5px 5px rgb(217, 225, 228);
     margin: 0px 70px;
-    border: solid #51ade5;
-    border-left: none;
-    border-top: none;
     border-radius: 5px;
 }
 
