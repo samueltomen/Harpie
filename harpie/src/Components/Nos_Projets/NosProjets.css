@@ -1,0 +1,44 @@
+@import url('../Main/Main.css');
+
+h1{
+    text-align: center;
+    margin: 1em;
+    text-decoration: underline;
+    font-weight: bold;
+    color: #51ade5;
+}
+
+#ourprojects h1{
+    margin-bottom: 2em;
+}
+
+.row{
+    --bs-gutter-x: 0em;
+}
+
+.card{
+    border:solid 1px #51ade5;
+    margin: 0px 70px;
+    border: solid #51ade5;
+    border-left: none;
+    border-top: none;
+    border-radius: 5px;
+}
+
+.card-title{
+    margin-bottom: 5px;
+}
+
+.card-img-top{
+    border-top-right-radius: var(--bs-card-inner-border-radius-none);
+    border-top-left-radius: var(--bs-card-inner-border-radius-none);
+}
+
+
+
+/* --------------- Footer ------------------ */
+
+.slogan_footer h1{
+    text-align: left;
+    margin: 0;
+}
