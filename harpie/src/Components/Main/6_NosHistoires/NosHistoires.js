@@ -1,4 +1,7 @@
 import React from "react";
+import imgCarousel1 from '../../../assets/carousel1.png'
+import imgCarousel2 from '../../../assets/carousel2.png'
+import imgCarousel3 from '../../../assets/homePage.png'
 
 export default function NosHistoires() {
   return (
@@ -27,7 +30,7 @@ export default function NosHistoires() {
               <div class="row">
                 <div class="col-lg-6 ">
                   <img
-                    src="./images/Image Verticale.png"
+                    src={imgCarousel1}
                     class="d-block w-100"
                     alt="..."
                   />
@@ -51,7 +54,7 @@ export default function NosHistoires() {
               <div class="row">
                 <div class="col-lg-6 ">
                   <img
-                    src="./images/Image Verticale.png"
+                    src={imgCarousel2}
                     class="d-block w-100"
                     alt="..."
                   />
@@ -75,7 +78,7 @@ export default function NosHistoires() {
               <div class="row">
                 <div class="col-lg-6 ">
                   <img
-                    src="./images/Image Verticale.png"
+                    src={imgCarousel3}
                     class="d-block w-100"
                     alt="..."
                   />

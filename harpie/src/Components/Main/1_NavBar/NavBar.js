@@ -1,10 +1,11 @@
 import React from 'react'
+import logo from '../../../assets/logo_harpie.png'
 
 export default function NavBar() {
   return (
     <nav class="navbar navbar-expand-md navbar-light bg-custom">
                   <div class="container">
-                    <a class="navbar-brand" href="#"><img src="./images/logo_harpie.png" alt="logo harpie" width="55px"/></a>
+                    <a class="navbar-brand" href="#"><img src={logo} alt="logo harpie" width="60px"/></a>
                     <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>

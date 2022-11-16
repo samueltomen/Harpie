@@ -1,11 +1,14 @@
-/* @font-face {
+@font-face {
     font-family: 'Bahnschrift';
-    src: url(../fonts/BAHNSCHRIFT.TTF);
-} */
+    src: url("../../assets/fonts/BAHNSCHRIFT.TTF")
+}
 
 *,::before,::after{
     margin: 0;
     padding: 0;
+}
+
+body{
     font-family: 'Bahnschrift';
 }
 
@@ -37,7 +40,7 @@ h2{
 .main_container{
     /* height: 80vh; */
     row-gap: 10vh;
-    /* background-image: url(../images/home\ page.png); */
+    background-image: url("../../assets/homePage.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -53,6 +56,8 @@ h2{
     font-size: 40px;
     color: #FFF;
     font-weight: bold;
+    text-decoration: none;
+    text-align: left;
 
 }
 
@@ -200,7 +205,7 @@ h2{
 /* --------------------- Le saviez-vous ---------------------- */
 
 .didyouknow{
-    /* background-image: url(../images/8.png); */
+    background-image: url('../../assets/didyouknow.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 25%;
@@ -221,6 +226,8 @@ h2{
     padding-right: 1em;
     padding-left: 1em;
     margin-top: 1em;
+    text-decoration: none;
+    text-align: left;
 
 }
 

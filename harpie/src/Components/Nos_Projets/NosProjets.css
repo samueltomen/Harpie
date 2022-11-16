@@ -16,7 +16,7 @@ h1{
     --bs-gutter-x: 0em;
 }
 
-.card{
+#ourprojects .card{
     box-shadow: 2px 5px 5px rgb(217, 225, 228);
     margin: 0px 70px;
     border-radius: 5px;

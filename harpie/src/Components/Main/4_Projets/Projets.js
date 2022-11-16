@@ -1,4 +1,8 @@
 import React from "react";
+import card1 from '../../../assets/image_card_1r.png'
+import card2 from '../../../assets/image_card_2r.png'
+import card3 from '../../../assets/image_card_3r.png'
+
 
 export default function Projets() {
   return (
@@ -11,7 +15,7 @@ export default function Projets() {
       <div class="card">
         <img
           class="card-img-top"
-          src="./images/image_card_1r.png"
+          src={card1}
           alt="lycéen africain"
         />
         <div class="card-body">
@@ -28,7 +32,7 @@ export default function Projets() {
       <div class="card">
         <img
           class="card-img-top"
-          src="./images/image_card_2r.png"
+          src={card2}
           alt="ecolier africain"
         />
         <div class="card-body">
@@ -45,7 +49,7 @@ export default function Projets() {
       <div class="card">
         <img
           class="card-img-top"
-          src="./images/image_card_3r.png"
+          src={card3}
           alt="Card image"
         />
         <div class="card-body">
