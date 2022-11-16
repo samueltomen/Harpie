@@ -20,8 +20,7 @@ export default function LeSaviezVous() {
             </p>
             <a href="">
               <i
-                class="fa fa-facebook-f fa-m row-cols-6"
-                aria-hidden="true"
+                class="fa fa-facebook-f fa-m row-cols-6" aria-hidden="true"
               ></i>
             </a>
           </div>
