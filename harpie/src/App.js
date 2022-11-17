@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <NavBar/>
-      <NosProjets/>
+      {/* <NosProjets/> */}
       <Home/>
       <TakeAction/>
       <Projets/>
