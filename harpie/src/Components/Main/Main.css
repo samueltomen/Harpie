@@ -20,6 +20,11 @@ h2{
     font-size: 16px;
 }
 
+#navProjets{
+    text-decoration: none;
+}
+
+
 /* ------------------ Début du header ----------------- */
 
 .nav-item{
@@ -33,6 +38,13 @@ h2{
 .dropdown-item{
     text-align: center;
     color: #51ade5;
+}
+
+ #navbarlink .nav-item a:hover{
+    color: #51ade5;
+    font-size: 1.5rem;
+    transition: all ease-in-out 0.3s;
+    transform:scaleY(1);
 }
 
 /* ----------------------- Début du main container --------------- */
