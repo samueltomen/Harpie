@@ -18,8 +18,9 @@ h1{
 
 #ourprojects .card{
     box-shadow: 2px 5px 5px rgb(217, 225, 228);
-    margin: 0px 70px;
+    margin: 0px 20px;
     border-radius: 5px;
+    width: 400px;
 }
 
 .card-title{

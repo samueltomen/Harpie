@@ -3,6 +3,8 @@
     src: url("../../assets/fonts/BAHNSCHRIFT.TTF")
 }
 
+/* -------------------- General ---------------------- */
+
 *,::before,::after{
     margin: 0;
     padding: 0;
@@ -24,6 +26,22 @@ h2{
     text-decoration: none;
 }
 
+/* ------------------------ Javascript Effects ------------------------ */
+
+/* .box{
+    transform: translateX(-300%);
+    transition: transform 0.4s ease;
+}
+
+.box:nth-of-type(even){
+    transform: translateX(300%);
+}
+
+.box.show{
+    transform: translateX(0);
+}
+
+ */
 
 /* ------------------ Début du header ----------------- */
 
@@ -46,6 +64,7 @@ h2{
     transition: all ease-in-out 0.3s;
     transform:scaleY(1);
 }
+
 
 /* ----------------------- Début du main container --------------- */
 
@@ -97,11 +116,12 @@ h2{
     font-size: 20px;
     margin-bottom: 1.5em;
 }
-.card-body{
+.main_container .card-body{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
+
 }
 
 /* ----------------------- Début de la div take action --------------- */
@@ -754,10 +774,11 @@ footer{
 }
 @media screen and (min-width: 1280px){
     .projects>.card{
-        max-width: 50vh;
+        max-width: 500px;
     }
-  
-
+  .projects .card .mb-4 img{
+    width: 10px;
+  }
 }
 
 @media screen and (min-width: 1480px){

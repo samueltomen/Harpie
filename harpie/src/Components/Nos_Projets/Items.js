@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Items(props) {
   return (
-        <div class="col-md-6">
+        <div class="col-md-4 d-flex justify-content-center">
             <div class="card mb-4">
             <img class="card-img-top" alt="Card image cap" src={props.image}/>
                 <div class="card-body">

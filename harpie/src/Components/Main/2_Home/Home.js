@@ -1,4 +1,5 @@
 import React from "react";
+import '../../effects'
 
 export default function () {
   return (
