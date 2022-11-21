@@ -1,7 +1,6 @@
 import React from "react";
-import '../../effects'
 
-export default function () {
+export default function Home() {
   return (
     <div class="main_container">
       <h1 class="main_slogan">#ensemble, construisons un monde meilleur</h1>

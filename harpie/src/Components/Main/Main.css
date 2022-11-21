@@ -27,9 +27,9 @@ a:-webkit-any-link {
     text-decoration: none;
 }
 
-.nav-item .nav-link .active{
-    color: #51ade5;
-    padding: 100px;
+.activey{
+    margin: 200px;
+    color: lightcoral;
 }
 /* ------------------------ Javascript Effects ------------------------ */
 
