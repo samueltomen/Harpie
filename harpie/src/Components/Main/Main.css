@@ -22,10 +22,15 @@ h2{
     font-size: 16px;
 }
 
-#navProjets{
+
+a:-webkit-any-link {
     text-decoration: none;
 }
 
+.nav-item .nav-link .active{
+    color: #51ade5;
+    padding: 100px;
+}
 /* ------------------------ Javascript Effects ------------------------ */
 
 /* .box{
@@ -49,8 +54,12 @@ h2{
     text-align: center;
     
 }
-.nav-item a, .nav-item:visited, .nav-item:hover{
+.nav-item:visited, .nav-item:hover{
     color: #51ade5;
+}
+
+.nav-item a {
+    color: #4b4949;
 }
 
 .dropdown-item{
@@ -60,9 +69,9 @@ h2{
 
  #navbarlink .nav-item a:hover{
     color: #51ade5;
-    font-size: 1.5rem;
-    transition: all ease-in-out 0.3s;
-    transform:scaleY(1);
+    /* font-size: 1.5rem; */
+    /* transition: all ease-in-out 0.3s; */
+    /* transform:scaleY(1); */
 }
 
 
