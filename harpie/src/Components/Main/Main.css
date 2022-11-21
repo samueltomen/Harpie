@@ -28,6 +28,11 @@ a:-webkit-any-link {
     text-decoration: none;
 }
 
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+    color: #51ade5
+}
+
+
 
 /* ------------------------ Javascript Effects ------------------------ */
 
@@ -684,7 +689,7 @@ footer{
         font-size: 1.5em;
         padding: 1em;
     }
-    
+
     .take_action{
         /* height: 50vh; */
         row-gap: 50px;
@@ -802,10 +807,6 @@ footer{
     }  
 }
 
-.activey{
-    margin: 200px;
-    color: lightcoral;
-}
 /* 
 Desktop : au delà de 1024 pixels
 Tablette : entre 600 et 1024 pixels (en mode portrait)
