@@ -27,7 +27,7 @@ export default function Footer() {
         <a href="">Instagram</a>
         <a href="">Linkedin</a>
       </div>
-      <div class="slogan_footer">
+      <div class="slogan_footer box">
         <h1>#ensemble, construisons un monde meilleur</h1>
       </div>
     </footer>

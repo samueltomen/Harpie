@@ -3,7 +3,7 @@ import React from "react";
 export default function TakeAction() {
   return (
     <div class="take_action">
-      <h2 class="box">FAITES UNE ACTION</h2>
+      <h2>FAITES UNE ACTION</h2>
       <div class="take_action_all box">
         <div class="take_action_p">
           <h3>Apprendre</h3>
