@@ -19,3 +19,25 @@ export default function Home() {
     </div>
   );
 }
+
+window.addEventListener('scroll', checkBoxes)
+
+checkBoxes()
+
+function checkBoxes (){
+  const boxes = document.querySelectorAll('.box')
+  const triggerBottom = (window.innerHeight / 8 * 7 )
+  boxes.forEach(box => {
+
+    const boxTop = box.getBoundingClientRect().top
+
+    if(boxTop < triggerBottom){
+      box.classList.add('show')
+    }else{
+      box.classList.remove('show')
+    }
+  })
+}
+
+
+ 

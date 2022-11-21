@@ -6,7 +6,7 @@ import card3 from '../../../assets/image_card_3r.png'
 
 export default function Projets() {
   return (
-    <div class="projects">
+    <div class="projects box">
       <h2>Nos Projets</h2>
       <h3>
         Our mission is to create sustainable work for women in developing

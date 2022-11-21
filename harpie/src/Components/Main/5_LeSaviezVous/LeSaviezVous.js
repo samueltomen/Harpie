@@ -4,9 +4,9 @@ export default function LeSaviezVous() {
   return (
     <div class="didyouknow">
       <div class="didyouknow_title">
-        <h1>Lorem ipsum dolor sit amet</h1>
+        <h1 className="box">Lorem ipsum dolor sit amet</h1>
       </div>
-      <div class="cards">
+      <div class="cards box">
         <div class="card" id="card1">
           <div class="card-header">DID YOU KNOW ?</div>
           <div class="card-body">

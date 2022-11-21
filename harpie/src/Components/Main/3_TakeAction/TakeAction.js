@@ -3,8 +3,8 @@ import React from "react";
 export default function TakeAction() {
   return (
     <div class="take_action">
-      <h2>FAITES UNE ACTION</h2>
-      <div class="take_action_all">
+      <h2 class="box">FAITES UNE ACTION</h2>
+      <div class="take_action_all box">
         <div class="take_action_p">
           <h3>Apprendre</h3>
           <p>Get the facts about this issue and how we’re helping.</p>
@@ -25,3 +25,5 @@ export default function TakeAction() {
     </div>
   );
 }
+
+

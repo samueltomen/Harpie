@@ -12,6 +12,7 @@
 
 body{
     font-family: 'Bahnschrift';
+    overflow-x: hidden;
 }
 
 a{
@@ -32,24 +33,6 @@ a:-webkit-any-link {
     color: #51ade5
 }
 
-
-
-/* ------------------------ Javascript Effects ------------------------ */
-
-/* .box{
-    transform: translateX(-300%);
-    transition: transform 0.4s ease;
-}
-
-.box:nth-of-type(even){
-    transform: translateX(300%);
-}
-
-.box.show{
-    transform: translateX(0);
-}
-
- */
 
 /* ------------------ Début du header ----------------- */
 
@@ -224,6 +207,7 @@ a:-webkit-any-link {
     display: flex;
     width: 90%;
     border-style: none;
+    text-align: center;
 }
 
 .card-link{
@@ -237,9 +221,6 @@ a:-webkit-any-link {
     margin-top: 1em;
 }
 
-.projects>.card>.card-body>a{
-    transition:  all 0.3s ease-in-out;
-}
 .projects>.card>.card-body>a:hover{
     color: #ffffff;
     background-color: #4b4949;
@@ -310,13 +291,17 @@ a:-webkit-any-link {
 .cards>.card>.card-body h4{
     margin: 0px;
     text-align: left;
-    /* margin-bottom: 15px; */
+    margin-bottom: 15px;
+}
+
+.card-body i {
+    text-align: center;
 }
 
 .card-body>a>.fa {
-    font-size: 30px;
-    width: 30%;
+    font-size: 25px;
     margin-bottom: 15px;
+    width: 20px;
 }
 .card-body>a>.fa-twitter:hover{
     color: #1da1f2;
@@ -572,7 +557,7 @@ hr {
 /*-------------------------------- MEDIA QUERIES------------------------------ */
 
 /* ---------------- Tablette ----------------------------- */
-@media screen and (min-width:550px) and (max-width:1023px) {
+@media screen and (min-width:555px) and (max-width:1023px) {
    
     .navbar-expand-md .navbar-nav .dropdown-menu {
         position: absolute;
@@ -622,6 +607,7 @@ hr {
     .projects>.card{
         display: flex;
         flex-flow: nowrap;
+        align-items: center;
     }
 
     .projects>.card>.card-body>.card-link{
@@ -691,15 +677,16 @@ footer{
     }
 
     .take_action{
-        /* height: 50vh; */
         row-gap: 50px;
         justify-content: space-around;
+        margin-bottom: 8em;
     }
    .take_action_p{
     min-width: 250px;
    }
    .take_action_all{
     margin: 0;
+    margin-top: 5em;
    }
 
     .projects>.card{
@@ -729,13 +716,14 @@ footer{
     .projects>.card>.card-body>.card-link{
         min-width: 10vh;
         margin: 0;
-        padding: 5px;
+        padding: 10px;
     }
     .didyouknow{
         flex-direction: row;
         align-items: flex-start;
         padding-top: 20%;
         padding: 10em 3em;
+        justify-content: center;
     }
     .didyouknow h1{
         font-size: 60px;
@@ -780,10 +768,37 @@ footer{
         justify-content: flex-end;
 
     }
+
+
+/* ------------------------ Javascript Effects ------------------------ */
+
+.box{
+    transform: translateY(40%) ;
+    transition: 0.4s;
+    opacity: 0;
+}
+
+.projects.box{
+    transform: translateY(20%);
+    transition: 0.8s;
+    opacity: 0;
+}
+
+.cards.box{
+    transform: translateX(100%);
+}
+
+.box.show{
+    transform: translateX(0);
+    opacity: 1;
+}
+
+
+
 }
 @media screen and (min-width: 1280px){
     .projects>.card{
-        max-width: 500px;
+        max-width: 400px;
     }
   .projects .card .mb-4 img{
     width: 10px;
