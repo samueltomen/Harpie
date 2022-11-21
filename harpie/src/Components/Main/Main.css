@@ -16,6 +16,7 @@ body{
 
 a{
     color:#4b4949 ;
+    cursor: pointer;
 }
 
 h2{
@@ -27,10 +28,7 @@ a:-webkit-any-link {
     text-decoration: none;
 }
 
-.activey{
-    margin: 200px;
-    color: lightcoral;
-}
+
 /* ------------------------ Javascript Effects ------------------------ */
 
 /* .box{
@@ -686,10 +684,7 @@ footer{
         font-size: 1.5em;
         padding: 1em;
     }
-
-    .main_container>.card>.card-header{
-        max-width: 500px;
-    }
+    
     .take_action{
         /* height: 50vh; */
         row-gap: 50px;
@@ -805,6 +800,11 @@ footer{
         width: 40%;
         column-gap: 150px;
     }  
+}
+
+.activey{
+    margin: 200px;
+    color: lightcoral;
 }
 /* 
 Desktop : au delà de 1024 pixels
