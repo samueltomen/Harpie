@@ -28,7 +28,7 @@ checkBoxes()
 
 function checkBoxes (){
   const boxes = document.querySelectorAll('.box')
-  const triggerBottom = (window.innerHeight / 11 * 8 )
+  const triggerBottom = (window.innerHeight / 9 * 8 )
   boxes.forEach(box => {
 
     const boxTop = box.getBoundingClientRect().top
