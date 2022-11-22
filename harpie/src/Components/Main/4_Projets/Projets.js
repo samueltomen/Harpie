@@ -71,7 +71,7 @@ export default function Projets() {
 
 function activeCardsNosProjets() {
   const id = 2;
-  const idArray = ["1","2","3","4","5"];
+  const idArray = ["1","2","3"];
   window.scroll(0,0);
 
   idArray.forEach((element)=> {
