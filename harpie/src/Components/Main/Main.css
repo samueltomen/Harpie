@@ -37,6 +37,11 @@ a:-webkit-any-link {
 
 /* ------------------ Début du header ----------------- */
 
+footer{
+  background-color: #f5f5f5;
+}
+
+
 .nav-item {
   text-align: center;
 }
@@ -215,10 +220,11 @@ a:-webkit-any-link {
   margin-top: 1em;
 }
 
-.projects > .card > .card-body > a:hover {
-  color: #ffffff;
+.projects .card-link:hover{
   background-color: #4b4949;
+  color: #fff;
 }
+
 /* --------------------- Le saviez-vous ---------------------- */
 
 .didyouknow {

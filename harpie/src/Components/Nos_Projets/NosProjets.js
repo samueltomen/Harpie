@@ -12,7 +12,7 @@ export default function NosProjets() {
     {
       text: "Nous sommes fière de vous présenter la nouvelle école construite en Ouganda pouvant accueillir 200 élèves",
       id: uuidv4(),
-      titre: "construction d'une nouvelle ecole",
+      titre: "Construction d'une nouvelle ecole",
       maj: "Mis à jour il y a 5 mins",
       image: imageCard1,
       date: "Novembre 12, 2022",
@@ -20,7 +20,7 @@ export default function NosProjets() {
     {
       text: "Nous sommes fière de vous partagez la campagne de distribution des fournitures scolaire",
       id: uuidv4(),
-      titre: "construction d'une nouvelle ecole",
+      titre: "Construction d'une nouvelle ecole",
       maj: "Mis à jour il y a 5 mins",
       image: imageCard2,
       date: "Novembre 12,2022",
@@ -28,7 +28,7 @@ export default function NosProjets() {
     {
       text: "Nous sommes fière de vous partagez la campagne de distribution des fournitures scolaire",
       id: uuidv4(),
-      titre: "construction d'une nouvelle ecole",
+      titre: "Construction d'une nouvelle ecole",
       maj: "Mis à jour il y a 5 mins",
       image: imageCard3,
       date: "Novembre 12,2022",
@@ -36,7 +36,7 @@ export default function NosProjets() {
     {
       text: "Nous sommes fière de vous partagez la campagne de distribution des fournitures scolaire",
       id: uuidv4(),
-      titre: "construction d'une nouvelle ecole",
+      titre: "Construction d'une nouvelle ecole",
       maj: "Mis à jour il y a 5 mins",
       image: imageCard1,
       date: "Novembre 12,2022",

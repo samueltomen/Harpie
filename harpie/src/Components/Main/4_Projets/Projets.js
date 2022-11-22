@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom'
 import card1 from '../../../assets/image_card_1r.png'
 import card2 from '../../../assets/image_card_2r.png'
 import card3 from '../../../assets/image_card_3r.png'
@@ -24,9 +25,9 @@ export default function Projets() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae,
             id!
           </p>
-          <a href="./our_projects.html" class="card-link">
+          <Link to='/NosProjets'><a href="#" class="card-link">
             En savoir plus
-          </a>
+          </a></Link>
         </div>
       </div>
       <div class="card">
@@ -41,9 +42,9 @@ export default function Projets() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque,
             alias!
           </p>
-          <a href="#" class="card-link">
+          <Link to='/NosProjets'><a href="#" class="card-link">
             En savoir plus
-          </a>
+          </a></Link>
         </div>
       </div>
       <div class="card">
@@ -58,9 +59,9 @@ export default function Projets() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus,
             sequi.
           </p>
-          <a href="#" class="card-link">
+          <Link to='/NosProjets'><a href="#" class="card-link">
             En savoir plus
-          </a>
+          </a></Link>
         </div>
       </div>
     </div>
