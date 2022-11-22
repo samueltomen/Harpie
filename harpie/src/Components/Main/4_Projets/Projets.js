@@ -25,7 +25,7 @@ export default function Projets() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae,
             id!
           </p>
-          <Link to='/NosProjets'><a href="#" class="card-link">
+          <Link to='/NosProjets'><a href="#" class="card-link" onClick={activeCardsNosProjets}>
             En savoir plus
           </a></Link>
         </div>
@@ -42,7 +42,7 @@ export default function Projets() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque,
             alias!
           </p>
-          <Link to='/NosProjets'><a href="#" class="card-link">
+          <Link to='/NosProjets'><a href="#" class="card-link" onClick={activeCardsNosProjets}>
             En savoir plus
           </a></Link>
         </div>
@@ -59,11 +59,23 @@ export default function Projets() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus,
             sequi.
           </p>
-          <Link to='/NosProjets'><a href="#" class="card-link">
+          <Link to='/NosProjets'><a href="#" class="card-link" onClick={activeCardsNosProjets}>
             En savoir plus
           </a></Link>
         </div>
       </div>
     </div>
   );
+}
+
+
+function activeCardsNosProjets() {
+  const id = 2;
+  const idArray = ["1","2","3","4","5"];
+  window.scroll(0,0);
+
+  idArray.forEach((element)=> {
+      document.getElementById(element).classList.remove("active");
+  });
+  document.getElementById(id).classList.add("active");
 }
