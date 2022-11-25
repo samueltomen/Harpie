@@ -1,10 +1,10 @@
-[
+const articles = [
   {
     "text": "Nous sommes fière de vous présenter la nouvelle école construite en Ouganda pouvant accueillir 200 élèves",
     "id": 1,
     "titre": "Construction d'une nouvelle ecole",
     "maj": "Mis à jour il y a 5 mins",
-    "image": "./assets/image_card_1r.png",
+    "image": require("./assets/image_card_1r.png"),
     "date": "Novembre 12, 2022"
   },
   {
@@ -12,7 +12,7 @@
     "id": 2,
     "titre": "Construction d'une nouvelle ecole",
     "maj": "Mis à jour il y a 5 mins",
-    "image": "empty",
+    "image": require("./assets/image_card_2r.png"),
     "date": "Novembre 12, 2022"
   },
   {
@@ -20,7 +20,7 @@
     "id": 3,
     "titre": "Construction d'une nouvelle ecole",
     "maj": "Mis à jour il y a 5 mins",
-    "image": "",
+    "image": require("./assets/image_card_3r.png"),
     "date": "Novembre 12, 2022"
   },
   {
@@ -28,7 +28,9 @@
     "id": 4,
     "titre": "Construction d'une nouvelle ecole",
     "maj": "Mis à jour il y a 5 mins",
-    "image": "empty",
+    "image": require("./assets/image_card_1r.png"),
     "date": "Novembre 12, 2022"
   }
 ]
+
+export default articles
