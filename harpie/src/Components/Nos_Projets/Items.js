@@ -1,5 +1,5 @@
 import React from 'react'
-import ArticlesJson from '../../Articles'
+import ArticlesJson from '../../articles.json'
 
 
 export default function Items() {
@@ -10,7 +10,7 @@ export default function Items() {
                 return(
                     <div class="col-md-4 d-flex justify-content-center">
                     <div class="card mb-4">
-                    <img class="card-img-top" src={article.image}/>
+                    <img class="card-img-top" src={`http://localhost:3000/img/${article.image}`}/>
                         <div class="card-body">
                             <h5 class="card-title text-center">{ article.titre }</h5>
                             <p class="card-text text-center"><small class="text-muted">{article.date}</small></p>
